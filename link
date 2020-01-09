@@ -1,3 +1,11 @@
 https://drive.google.com/file/d/1MGhEbFCVbNgiohBUaTbaSaKk0xcYs5q-/view?usp=sharing
 
 https://docs.google.com/forms/d/e/1FAIpQLSedty3HRPlfkVwFUqde2HcvzlkR8ogKGkuNGhQl1uj4wsYBGQ/viewform
+from matplotlib import pyplot;
+from pylab import genfromtxt;  
+mat0 = genfromtxt("/home/govind/Downloads/synthetic_data/synthetic_data/linearlySeparableData/group3/class1_train.txt");
+mat1 = genfromtxt("/home/govind/Downloads/synthetic_data/synthetic_data/linearlySeparableData/group3/class2_train.txt");
+pyplot.scatter(mat0[:,0], mat0[:,1],marker = 'o', label = "class1");
+pyplot.scatter(mat1[:,0], mat1[:,1], marker = 'x',label = "class2");
+pyplot.legend();
+pyplot.show()  

@@ -6,3 +6,5 @@ pyplot.scatter(mat0[:,0], mat0[:,1],marker = 'o', label = "class1");
 pyplot.scatter(mat1[:,0], mat1[:,1], marker = 'x',label = "class2");
 pyplot.legend();
 pyplot.show()  
+
+https://drive.google.com/file/d/1MGhEbFCVbNgiohBUaTbaSaKk0xcYs5q-/view?usp=sharing
